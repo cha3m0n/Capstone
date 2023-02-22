@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create</title>
+    <link rel="stylesheet" href="create.css">
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="home.html"><img src="Pictures/home.png" alt=""> Home</a></li>
+            <li><a href=""><img src="Pictures/plus.png" alt="">Create Post</a></li>
+            <li>
+                <form1><input type="text" placeholder="Search..."></form>
+            </li>
+            <li>  <div class="dropdown">
+                <img src="Pictures/notification.png" alt="">
+                <button class="dropbtn">Notifications</button>
+                <div class="dropdown-content">
+                  <a href="#">Notification 1</a>
+                  <a href="#">Notification 2</a>
+                  <a href="#">Notification 3</a>
+                </div>
+            </div>
+            </li>
+            <li><a href="profile.html"><img src="Pictures/user.png" alt="">Profile</a></li>
+        </ul>
+    </div>
+
+    <form action="/post" method="POST">
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required>
+      
+        <label for="category">Category:</label>
+        <input type="text" id="category" name="category" required>
+      
+        <label for="content">Content:</label>
+        <textarea id="content" name="content" rows="5" required></textarea>
+
+        <button type="submit">Post</button>
+    </form>
+      
+</body>
+</html>
