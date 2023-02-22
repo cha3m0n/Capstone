@@ -1,2 +1,2 @@
-# Capstone
+# Acad Capstone
 Academic Forum
