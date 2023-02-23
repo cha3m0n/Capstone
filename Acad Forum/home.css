@@ -16,7 +16,7 @@
     display: flex;
     justify-content: center;
     margin-left: 2%;
-    margin-right: 2 %;
+    margin-right: 2%;
 }
 
 .col1{
@@ -95,11 +95,11 @@ li img {
 }
 
 .post {
-    width: 50%;
+    width: 90%;
     border: 2px solid #94CA74;
     border-radius: 4px;
     padding: 20px;
-    margin-left: 5%;
+    margin-left: 2%;
     margin-top: 3%;
 }
   
@@ -123,19 +123,6 @@ li img {
     color: #999;
 }
 
-.bruh{
-    display: flex;
-}
-
-.bruh img{
-
-}
-
-.bruh2{
-    padding-left: 2%;
-    display: flex;
-}
-
 .post-footer img {
     width: 70%;
     max-width: 20px;
@@ -149,25 +136,60 @@ li img {
 
 .post2 {
     margin-top: 0.5%;
-    width: 50%;
+    width: 90%;
     border: 2px solid #94CA74;
     border-radius: 4px;
     padding: 20px;
-    margin-left: 5%;
+    margin-left: 2%;
 }
 
 .post3 {
     margin-top: 0.5%;
-    width: 50%;
+    width: 90%;
     border: 2px solid #94CA74;
     border-radius: 4px;
     padding: 20px;
-    margin-left: 5%;
+    margin-left: 2%;
 }
 
 /* ===================================================== */
 
 .col2{
-    margin-top: 2%;
+    margin-top: 2.4%;
     margin-right: 5%;
 }
+
+.col2 .container1{
+    border: 2px solid #94CA74;
+    border-radius: 4px;
+    width: 120%;
+}
+
+.container1 h3{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#meee{
+    padding-top: 25px;
+}
+
+.container1 p{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#baaa{
+    padding-bottom: 25px;
+}
+
+.container1 .header{
+    border-bottom: #94CA74 solid 2px;
+    text-align: left;
+    background-color: #F8FCEC;
+}
+
+.header h2{
+    padding: 25px;
+}
+

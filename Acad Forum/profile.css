@@ -71,9 +71,10 @@ li img {
 }
 
 .container {
-    width: 93%;
+    width: 90%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     background-color: #F8FCEC;
     border: 2px solid #94CA74;
     border-radius: 4px;
@@ -85,7 +86,7 @@ li img {
 .cont {
     display: flex;
     align-items: center;
-    font-size: 1vw;
+    width: 50%;
 }
 
 .cont img {
@@ -95,26 +96,43 @@ li img {
 }
 
 .cont h1 {
-    margin-left: 5%;
+    margin-left: 2%;
+}
+
+.aaaa{
+    margin-left: 2%;
+    width: 50%;
+}
+
+.aaaa h1{
+    font-size: 2vw;
+}
+
+.www{
+    margin-left: 1%;
+    width: 120%;
+}
+
+.www p{
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 0.9vw;
+    color: gray;
 }
 
 .logout {
     display: flex;
-    padding: 0;
-    align-items: right;
-    justify-content: right;
-    padding-top: 5%;
-    width: 65%;
+    margin-right: 2%;
+    background-color: brown;
+    padding: .5%;
 }
-.logout p {
+.logout p{
     color: white;
-    font-size: 1.2vw;
-    background-color: #DC7878;
-    padding: 5%;
+    font-size: 1vw;
 }
 
 .post {
-    width: 93%;
+    width: 90%;
     border: 2px solid #94CA74;
     border-radius: 4px;
     padding: 20px;
@@ -139,21 +157,14 @@ li img {
   
 .post-footer {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 14px;
     color: #999;
 }
 
 .post-footer img {
-    width: 10%;
+    width: 70%;
     max-width: 20px;
-    margin-left: 0%;
-}
-  
-.post-comments {
-    padding-left: -1%;
-    margin-left: 5%;
+    margin-left: 1%;
+    margin-right: 0.5%;
 }
   
 .post-cited {
@@ -162,4 +173,5 @@ li img {
 
 a{
     text-decoration: none;
+    color: black;
 }
