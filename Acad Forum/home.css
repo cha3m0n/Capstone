@@ -12,6 +12,30 @@
     border: 2px solid #94CA74;
 }
 
+.columns{
+    display: flex;
+    justify-content: center;
+    margin-left: 2%;
+    margin-right: 2 %;
+}
+
+.col1{
+    display: block;
+}
+
+a{
+    text-decoration: none;    
+    color: black;
+}
+
+.post #tags1{
+    color: blue;
+}
+
+.post2 #tags1{
+    color: blue;
+}
+
 ul {
     display: flex;
     flex-direction: row;
@@ -96,21 +120,27 @@ li img {
   
 .post-footer {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 14px;
     color: #999;
 }
 
-.post-footer img {
-    width: 10%;
-    max-width: 20px;
-    margin-left: 0%;
+.bruh{
+    display: flex;
 }
-  
-.post-comments {
-    padding-left: -1%;
-    margin-left: 5%;
+
+.bruh img{
+
+}
+
+.bruh2{
+    padding-left: 2%;
+    display: flex;
+}
+
+.post-footer img {
+    width: 70%;
+    max-width: 20px;
+    margin-left: 1%;
+    margin-right: 0.5%;
 }
   
 .post-cited {
@@ -135,6 +165,9 @@ li img {
     margin-left: 5%;
 }
 
-a{
-    text-decoration: none;
+/* ===================================================== */
+
+.col2{
+    margin-top: 2%;
+    margin-right: 5%;
 }
