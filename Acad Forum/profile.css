@@ -171,7 +171,7 @@ li img {
     margin: 0;
 }
 
-a{
+a .logout{
     text-decoration: none;
     color: black;
 }
